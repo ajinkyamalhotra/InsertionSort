@@ -1,4 +1,4 @@
-public class Insertion{
+public class Insertionsort{
    public static void InsertionSort(int[] data, int size) {
    	//Write your code here
       int temp = 0;
