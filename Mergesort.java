@@ -1,4 +1,4 @@
-public class MergeSort{
+public class Mergesort{
 
    public static void MergeSort(int[] data, int lo, int hi)
    {
