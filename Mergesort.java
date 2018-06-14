@@ -38,7 +38,7 @@ public class Mergesort{
       }
       
       //loading data into right sub-array
-      int b =0;
+      int b = 0;
       for(int j=mid+1; j<=hi; j++){
          
          right[b] = data[j];
