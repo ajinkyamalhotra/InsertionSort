@@ -57,6 +57,7 @@ public class Mergesort{
       right[sizeR] = large;
       
       for(int k=lo; k<=hi; k++){
+         
          //if left is smaller compared to right, then add left value and left counter (i) += 1
          if(left[i] < right[j]){
             
