@@ -1,9 +1,7 @@
 public class Mergesort{
 
-   public static void MergeSort(int[] data, int lo, int hi)
-   {
-   	//Write your code here
-   	//You may create other functions if needed 
+   public static void MergeSort(int[] data, int lo, int hi) {
+
       if(lo==hi) 
          return;
       else{
@@ -33,7 +31,7 @@ public class Mergesort{
          b++;
       }
       int i=0; int j=0;
-      ///*Approach 2:
+     
       int large = Math.max(left[sizeL-1], right[sizeR-1])+1;
       left[sizeL] = large;
       right[sizeR] = large;
@@ -46,8 +44,9 @@ public class Mergesort{
             data[k] = right[j];
             j++;
          }
+      
       }
-      //*/
+
    }
 
 }
