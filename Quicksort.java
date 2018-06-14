@@ -1,7 +1,6 @@
  public class Quicksort{
    public static void QuickSort(int[] data, int lo, int hi, int depth) {
-   	//Write your code here
-   	//You may create other functions if needed 
+    
       if(lo>= hi) 
          return;
       else {
