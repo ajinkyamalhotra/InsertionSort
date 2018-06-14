@@ -1,11 +1,15 @@
 public class Mergesort{
 
    public static void MergeSort(int[] data, int lo, int hi) {
-
+      
+      //base condition check
       if(lo==hi) 
          return;
       
+      //recurrsion condition check
       else{
+         
+         //computing middle index value
          int mid = (lo + hi)/2;
          
          MergeSort(data, lo, mid);
