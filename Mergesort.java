@@ -16,7 +16,7 @@ public class Mergesort{
       int sizeL = mid-lo+1;
       int sizeR = hi-mid;
       
-      //for approach2 added +1 on the sizes of the arrays
+      //added +1 on the sizes of the arrays
       int[] left = new int[sizeL+1];
       int[] right = new int[sizeR+1];
       
