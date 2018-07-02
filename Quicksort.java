@@ -70,3 +70,10 @@ public class Quicksort{
    }
 
 }
+/*********Running time*********
+ *                            *
+ * Best Case: θ(nlogn)        *
+ * Average Caser: θ(nlogn)    *
+ * Worst Case: θ(n^2)         *
+ *                            *
+ ******************************/
