@@ -29,12 +29,10 @@ public class Insertionsort{
    }
 
 }
-/* add analysis and running time
- *
- *
- *
- *
- *
- *
- *
- */
+/*************************************
+ *                                   *
+ * Running time                      *
+ * Best Case running time:  (n)     *
+ * Worst Case running timw: (n^2)    *
+ *                                   *
+ *************************************/
