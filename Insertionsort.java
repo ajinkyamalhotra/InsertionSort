@@ -29,10 +29,11 @@ public class Insertionsort{
    }
 
 }
-/*************************************
- *                                   *
- * Running time                      *
- * Best Case running time:  (n)     *
- * Worst Case running timw: (n^2)    *
- *                                   *
- *************************************/
+/**************************************
+ *                                    *
+ * Running time                       *
+ * Best Case running time:  θ(n)      *
+ * Average Case running timr: θ(n^2)  *
+ * Worst Case running timw: θ(n^2)    *
+ *                                    *
+ **************************************/
