@@ -86,3 +86,11 @@ public class Mergesort{
    }
 
 }
+
+/*********Running time*********
+ *                            *
+ * Best Case: θ(nlogn)        *
+ * Average Caser: θ(nlogn)    *
+ * Worst Case: θ(nlogn)       *
+ *                            *
+ ******************************/
