@@ -1,6 +1,6 @@
 public class Insertionsort{
    
-   //Given I pass in parameters array and array size to the method
+   //Given I pass in the parameters, array and array size to the method
    public static void InsertionSort(int[] data, int size) {
       
       int temp = 0;
