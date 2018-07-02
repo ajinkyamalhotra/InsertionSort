@@ -1,5 +1,6 @@
 public class Quicksort{
    
+   //Given I pass in the parameters, array, start index, last index and depth to the method
    public static void QuickSort(int[] data, int lo, int hi, int depth) {
     
       if(lo>= hi) 
@@ -28,7 +29,8 @@ public class Quicksort{
       index = rand.nextInt(hi+1-lo) + lo;
       
       //swaping the last element with the radomly selected pivot point
-      if(index != hi)swap(data, index, hi);
+      if(index != hi)
+         swap(data, index, hi);
       
       int pivot = data[hi];
       
@@ -54,6 +56,7 @@ public class Quicksort{
  
    public static void swap(int[] data, int index1, int index2){
       
+      //condition check to avoid unnecessary swaps
       if(index1 != index2){
          
          int temp = data[index1];
