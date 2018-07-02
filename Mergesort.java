@@ -1,5 +1,6 @@
 public class Mergesort{
 
+   //Given I pass in the parameters, array, start index and finish index to the method
    public static void MergeSort(int[] data, int lo, int hi) {
       
       //base condition check
@@ -12,8 +13,10 @@ public class Mergesort{
          //computing middle index value
          int mid = (lo + hi)/2;
          
+         //processing left sub-array
          MergeSort(data, lo, mid);
          
+         //processing right sub-array
          MergeSort(data, mid+1, hi);
          
          Merge(data, lo, mid, hi);
@@ -28,7 +31,7 @@ public class Mergesort{
       
       int sizeR = hi-mid;
       
-      //intializing arrays left and right to sizeL and sizeR + 1 respectively
+      //intializing arrays left and right to sizeL+1 and sizeR+1 respectively
       int[] left = new int[sizeL+1];
       int[] right = new int[sizeR+1];
       
