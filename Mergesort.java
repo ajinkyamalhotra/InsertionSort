@@ -1,6 +1,6 @@
 public class Mergesort{
 
-   //Given I pass in the parameters, array, start index and finish index to the method
+   //Given I pass in the parameters, array, start index and last index to the method
    public static void MergeSort(int[] data, int lo, int hi) {
       
       //base condition check
