@@ -4,15 +4,13 @@ public class Insertionsort{
    public static void InsertionSort(int[] data, int size) {
       
       int temp = 0;
-     
-      //from 1 to size-1
+
       for(int i=1; i<size; ++i){
          
          temp = data[i];
          
          int j=0;
-         
-         //from i-1 down to 0
+
          for(j=i-1; j >= 0; --j){
             
             if(data[j] > temp)
