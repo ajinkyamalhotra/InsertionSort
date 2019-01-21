@@ -48,6 +48,7 @@ public class Quicksort{
          //else if(i+1 == j) i++;
       
       }
+      //Swapping to put pivot to its right location
       swap(data, i+1, hi);
       
       return i+1;
